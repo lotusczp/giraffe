@@ -1,0 +1,17 @@
+# Fibonacci sequence
+def fib (n)
+{
+    if(n<=2) {
+        retval = 1;
+    }
+    else {
+        retval = fib(n-1) + fib(n-2)
+    }
+    retval
+}
+
+i=0
+while (i<25) {
+    i = i+ 1
+    print fib(i)
+}
